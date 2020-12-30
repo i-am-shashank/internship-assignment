@@ -2,9 +2,7 @@ import styles from "../styles/Home.module.css";
 import Card from "./components/Card";
 
 function fetchData() {
-  function handleClick(){
-    
-  }
+
   const data = [
     {
       img:
@@ -99,7 +97,7 @@ function fetchData() {
   ];
 
   return data.map(({ img, name, price }, SIZE) => (
-    <Card  onClick={()=>handleClick(img, name, price)} key={SIZE} img={img} name={name} price={price}></Card>
+    <Card key={SIZE} img={img} name={name} price={price}></Card>
   ));
 }
 

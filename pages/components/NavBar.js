@@ -3,6 +3,7 @@ import Link from "next/link";
 import nav from "./styles/nav.module.css";
 
 function NavBar() {
+  
   return (
     <>
       <div className={nav.container}>
@@ -10,7 +11,7 @@ function NavBar() {
           <p className={nav.logotext}>Algo mobiles</p>
         </Link>
         <Link href="/Login">
-          <button className={nav.login}>login</button>
+          <button className={nav.login}>logout</button>
         </Link>
       </div>
     </>
