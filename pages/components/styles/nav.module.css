@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  background-color: #eeeeee;
+  box-shadow: 2px 2px 2px rgb(224, 214, 214);
+  height: 5rem;
+  width: 100vw;
+}
+.logotext {
+  margin-left: 2rem;
+  font-family: "Pacifico", cursive;
+  align-self: center;
+  font-size: 2rem;
+  color: #dc1d21;
+  user-select: none;
+  cursor: pointer;
+}
+.login {
+  position: absolute;
+  align-self: center;
+  margin-right: 2rem;
+  right: 0;
+
+  color: #fc5d5d;
+  margin-top: 11px;
+  padding: 8px 16px;
+  display: block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  width: max-content;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #fc5d5d;
+  cursor: pointer;
+  user-select: none;
+  transition: all ease 0.3s;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  transition: ease 0.5s;
+}
+.login:hover {
+  background-color: #fc5d5d;
+  color: white;
+  box-shadow: 1px 1px 8px #ddc1c1;
+}

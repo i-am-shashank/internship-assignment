@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  padding: 1rem;
+  width: 16rem;
+  max-height: 28rem;
+  margin: 2rem;
+  border-radius: 0.4rem;
+  float: left;
+  box-shadow: 0px 0px 8px rgb(255, 232, 232);
+  transition: all ease 0.3s;
+}
+.container:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgb(197, 197, 197);
+}
+
+.mobilename {
+  margin: 1rem 0;
+  white-space: nowrap;
+  font-family: inter;
+  font-size: large;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #3a3a38;
+}
+.price {
+  color: #3a3a38;
+  float: left;
+  align-self: center;
+}
+.button {
+  display: flex;
+  width: max-content;
+  align-self: center;
+  background-color: #fc5d5d;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  font-size: medium;
+  font-weight: bold;
+  color:#FFFFFF;
+}
+.pricBtn {
+  display: flex;
+  justify-content: space-between;
+}

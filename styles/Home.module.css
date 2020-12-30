@@ -1,0 +1,14 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.cardContainer {
+  display: flex;
+  width:auto;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
