@@ -5,7 +5,7 @@ function Card({ img, price, name }) {
   return (
     <>
       <div className={card.container}>
-        <img src={"https://www.reliancedigital.in".concat(img)} />
+        <img className={card.image} src={"https://www.reliancedigital.in".concat(img)} />
         <p className={card.mobilename}>{name}</p>
         <div className={card.pricBtn}>
           <p className={card.price}>₹{price}</p>

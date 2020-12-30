@@ -45,3 +45,16 @@
   color: white;
   box-shadow: 1px 1px 8px #ddc1c1;
 }
+@media (max-width: 700px) {
+  .container {
+    height: 4rem;
+  }
+  .logotext {
+    font-size: 1.5rem;
+  }
+  .login {
+    padding: 4px 8px;
+    font-size: medium;
+    background-color: #eeeeee;
+  }
+}

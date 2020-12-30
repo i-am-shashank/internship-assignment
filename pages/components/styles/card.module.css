@@ -15,7 +15,9 @@
   cursor: pointer;
   box-shadow: 0px 2px 4px rgb(197, 197, 197);
 }
-
+.image {
+  display: flex;
+}
 .mobilename {
   margin: 1rem 0;
   white-space: nowrap;
@@ -40,9 +42,19 @@
   border-radius: 1rem;
   font-size: medium;
   font-weight: bold;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 .pricBtn {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 20rem;
+    margin: 1rem;
+  }
+  .image {
+    height: 16rem;
+  }
 }

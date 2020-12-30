@@ -17,12 +17,6 @@ function fetchData() {
     },
     {
       img:
-        "/medias/Oppo-F17-8-128GB-Navy-Blue-491901067-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MDE5OHxpbWFnZS9qcGVnfGltYWdlcy9oZmMvaDlkLzkzODgyMDQwOTc1NjYuanBnfGRkMzU3ZWMxYzFmMGEyODk4MTgxMDMzZTZmZjZkYzc3MDI4YTBmNDViMjE4NGZlMmU5MzI1OTBhM2UwYzcyOWQ",
-      name: "Oppo F17 128 GB, 8 GB RAM",
-      price: 18490,
-    },
-    {
-      img:
         "/medias/Oppo-F17-Smartphone-491901066-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2MzAwN3xpbWFnZS9qcGVnfGltYWdlcy9oNjIvaDc3LzkzODAyNzY0MDQyNTQuanBnfDdmYzY2MzhmZjk4NzM3ZGIzNjIyNjVjMWQ3NTVlOGJhOWQ3NjIxOGFjMzlhOWNkYzFiZjQzODUyZDIwZWVjZGU",
       name: "Oppo F17 128 GB, 6 GB RAM, Dynamic Orange, Smartphone",
       price: 16990,
@@ -74,6 +68,12 @@ function fetchData() {
         "/medias/VIVO-U20-Smart-Phones-491615470-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDI2NXxpbWFnZS9qcGVnfGltYWdlcy9oYzUvaGE3LzkyMzI0MjAyMDg2NzAuanBnfDY2MWM0NmEwNGYwMWQ2YzQwOTdkNGZmMjFkMjcyYjdhNDc3ZTViZjI0NTg1YzM1NDM4MzY5MDRkNTgwYWMyYWY",
       name: "VIVO U20 Smart Phone 128 GB, 8 GB RAM, Blaze Blue",
       price: 17990,
+    },
+    {
+      img:
+        "/medias/Oppo-F17-8-128GB-Navy-Blue-491901067-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MDE5OHxpbWFnZS9qcGVnfGltYWdlcy9oZmMvaDlkLzkzODgyMDQwOTc1NjYuanBnfGRkMzU3ZWMxYzFmMGEyODk4MTgxMDMzZTZmZjZkYzc3MDI4YTBmNDViMjE4NGZlMmU5MzI1OTBhM2UwYzcyOWQ",
+      name: "Oppo F17 128 GB, 8 GB RAM",
+      price: 18490,
     },
     {
       img:
