@@ -11,10 +11,14 @@ function Card({ onClick, img, price, name }) {
   }).substring(0, 50);
   return (
     <>
-      <Link href={`/smartphones/${slug}`}>
-        <div
-          className={card.container}
-        >
+      {/* <Link href={`/smartphones/${slug}/?n=${name}/?p=${price}/?i=${img}`}> */}
+      <Link
+        href={{
+          pathname: `/smartphones/${slug}`,
+          query: {n: name, p: price, i: img} ,
+        }}
+      >
+        <div className={card.container}>
           <img
             className={card.image}
             src={"https://www.reliancedigital.in".concat(img)}
