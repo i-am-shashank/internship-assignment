@@ -11,7 +11,7 @@ function NavBar() {
           <p className={nav.logotext}>Algo mobiles</p>
         </Link>
         <Link href="/Login">
-          <button className={nav.login}>logout</button>
+          <button className={nav.login}>login</button>
         </Link>
       </div>
     </>
