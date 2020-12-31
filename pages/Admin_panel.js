@@ -37,7 +37,7 @@ function Admin_panel() {
             <p className={admin.reportstext} >{generateReport(dailySales)}</p>
           </div>
           <div className={admin.card}>
-            <p className={admin.headline}>Daily Login report 🔓</p>
+            <p className={admin.headline}>Logins 🔓</p>
             <p className={admin.reportstext} >{generateReport(userLoginStatus)}</p>
           </div>
         </div>
