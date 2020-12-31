@@ -3,8 +3,18 @@
   bottom: 0;
   width: 40vw;
 }
+@media(max-width: 1600px){
+  .image{
+    width: 70vh;
+  }
+}@media(max-width: 950px){
+  .image{
+    display: none;
+  }
+}
 .input {
-  padding: 2rem;
+  padding: 8%;
+  width: 90%;
   font-size: large;
   transition: all ease 0.3s;
 }
@@ -24,11 +34,28 @@
   margin-top: 20vh;
   height: 50vh;
   width: 20vw;
+  min-width: 300px;
   background-color: #eeeeee;
-  margin-left: 80rem;
+  margin-left: 64vw;
   border-radius: 0.8rem;
   box-shadow: 0px 0px 4px #b6a7a7;
   transition: ease-in 0.3s;
+}
+@media(max-width: 1100px){
+  .container{
+    margin-top: 18vh;
+    margin-left: 55vw;
+  }
+}@media(max-width: 950px){
+  .maincontainer{
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    margin: 20vh auto;
+    align-self: center;
+    position: unset;
+  }
 }
 .container:hover {
   box-shadow: 0px 0px 10px #b19c9c;

@@ -34,39 +34,41 @@ function Login() {
   };
   return (
     <>
-      <img className={login.image} src="/assets/login.svg" />
-      <div className={login.container}>
-        <form className={login.form} onSubmit={onSubmitHandler}>
-          <input
-            className={login.input}
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            type="text"
-            required
-            placeholder="
+      <div className={login.maincontainer}>
+        <img className={login.image} src="/assets/login.svg" />
+        <div className={login.container}>
+          <form className={login.form} onSubmit={onSubmitHandler}>
+            <input
+              className={login.input}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              type="text"
+              required
+              placeholder="
             👤 name"
-          />
-          <input
-            className={login.input}
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            type="email"
-            required
-            placeholder="✉️ email"
-          />
-          <input
-            className={login.input}
-            value={pass}
-            onChange={(e) => setPass(e.target.value)}
-            type="password"
-            placeholder="
+            />
+            <input
+              className={login.input}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              type="email"
+              required
+              placeholder="✉️ email"
+            />
+            <input
+              className={login.input}
+              value={pass}
+              onChange={(e) => setPass(e.target.value)}
+              type="password"
+              placeholder="
             🔐 password"
-            required
-          />
-          <button className={login.button} type="submit">
-            login
-          </button>
-        </form>
+              required
+            />
+            <button className={login.button} type="submit">
+              login
+            </button>
+          </form>
+        </div>
       </div>
     </>
   );
