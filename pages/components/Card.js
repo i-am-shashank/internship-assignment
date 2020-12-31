@@ -6,9 +6,12 @@ import card from "./styles/card.module.css";
 import { FiShoppingCart, FiBookmark } from "react-icons/fi";
 
 function Card({ img, price, name }) {
-  const slug = slugify(name.toString(), {
-    lower: true,
-  }).substring(0, 50);
+  const slug =
+    name !== undefined
+      ? slugify(name.toString(), {
+          lower: true
+        })
+      : "phone";
   return (
     <>
       {/* <Link href={`/smartphones/${slug}/?n=${name}/?p=${price}/?i=${img}`}> */}
