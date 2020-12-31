@@ -5,7 +5,7 @@ import Link from "next/link";
 import card from "./styles/card.module.css";
 import { FiShoppingCart, FiBookmark } from "react-icons/fi";
 
-function Card({ onClick, img, price, name }) {
+function Card({ img, price, name }) {
   const slug = slugify(name.toString(), {
     lower: true,
   }).substring(0, 50);
