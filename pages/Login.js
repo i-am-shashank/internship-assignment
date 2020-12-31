@@ -24,10 +24,13 @@ function Login() {
     const payload = { name, email, pass };
     users.map((user) => {
       console.log(user);
-      (JSON.stringify(user) === JSON.stringify(payload))
-        && (payload.name==='admin'? Router.push('/Admin_panel') : Router.push('/')) && localStorage.setItem('login',true)
+      JSON.stringify(user) === JSON.stringify(payload) &&
+        (payload.name === "admin"
+          ? Router.push("/Admin_panel")
+          : Router.push("/")) &&
+        localStorage.setItem("login", true);
     });
-    return <p>wrong details entered</p>    // console.log(payload);
+    return <p>wrong details entered</p>; // console.log(payload);
   };
   return (
     <>
@@ -39,24 +42,26 @@ function Login() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             type="text"
-            // required
-            placeholder="name"
+            required
+            placeholder="
+            👤 name"
           />
           <input
             className={login.input}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             type="email"
-            // required
-            placeholder="email"
+            required
+            placeholder="✉️ email"
           />
           <input
             className={login.input}
             value={pass}
             onChange={(e) => setPass(e.target.value)}
             type="password"
-            placeholder="password"
-            // required
+            placeholder="
+            🔐 password"
+            required
           />
           <button className={login.button} type="submit">
             login

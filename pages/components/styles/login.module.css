@@ -12,6 +12,7 @@
   box-shadow: 1px 1px 4px #ddc1c1;
 }
 .form {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
