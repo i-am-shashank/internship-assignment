@@ -97,7 +97,7 @@ function fetchData() {
   ];
 
   return data.map(({ img, name, price }, SIZE) => (
-    <Card key={SIZE} img={img} name={name} price={price}></Card>
+    name && <Card key={SIZE} img={img} name={name} price={price}></Card>
   ));
 }
 
