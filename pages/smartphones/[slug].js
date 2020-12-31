@@ -24,7 +24,7 @@ function slug() {
           <div className={smartphone.btncontainer}>
             <button className={smartphone.buy}>buy now</button>
             <button className={smartphone.cart}>add to cart</button>
-            <BsHeart size="2rem" color="#fc5d5d" />
+            <BsHeart className={smartphone.heart} size="10%" color="#fc5d5d" />
           </div>
           <p className={smartphone.description}>Description:</p>
           <p className={smartphone.lorem} >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
